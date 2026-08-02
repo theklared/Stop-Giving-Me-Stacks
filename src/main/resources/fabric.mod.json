@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "sgms",
+  "version": "${version}",
+  "name": "Stop Giving Me Stacks",
+  "description": "Gives the player only one of an item when grabbing an item from the creative menu with a keybind instead of the normal 64.",
+  "authors": [
+    "theklared"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "client",
+  "mixins": [
+    "sgms.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
