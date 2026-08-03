@@ -9,13 +9,13 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "icon.png",
+  "icon": "assets/sgms/icon.png",
   "environment": "client",
   "mixins": [
     "sgms.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": "*",
     "fabric-api": "*",
     "minecraft": "${minecraft_version}"
   }
