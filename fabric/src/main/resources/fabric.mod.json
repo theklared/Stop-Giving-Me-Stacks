@@ -7,7 +7,10 @@
   "authors": [
     "theklared"
   ],
-  "contact": {},
+  "contact": {
+    "source": "https://github.com/theklared/Stop-Giving-Me-Stacks",
+    "issues": "https://github.com/theklared/Stop-Giving-Me-Stacks/issues"
+  },
   "license": "MIT",
   "icon": "assets/sgms/icon.png",
   "environment": "client",
@@ -15,7 +18,7 @@
     "sgms.mixins.json"
   ],
   "depends": {
-    "fabricloader": "*",
-    "minecraft": "${minecraft_version}"
+    "fabricloader": ">=${fabric_loader_version}",
+    "minecraft": ">=${minecraft_version}"
   }
 }
